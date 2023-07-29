@@ -37,7 +37,7 @@ If you are using this repository in Google Colab, follow these commands to build
 
 ```
 !git clone https://github.com/sypsyp97/torch-radon.git
-!wget https://github.com/sypsyp97/torch-radon/raw/master/examples/phantom.npy
+!wget https://github.com/sypsyp97/torch-radon/raw/main/examples/phantom.npy
 %cd torch-radon
 !pip install .
 %cd ..
