@@ -47,6 +47,10 @@ If you are using this repository in Google Colab, follow these commands to build
 
 This is a fork of the [torch-radon](https://github.com/matteo-ronchetti/torch-radon.git) project originally created and maintained by [Matteo Ronchetti](https://github.com/matteo-ronchetti). 
 
+This fork includes two main updates:
+1. `torch.rfft` and `torch.irfft` used to filter the sinogram are not supported by PyTorch anymore. This has been updated to use the `torch.fft.rfft` and `torch.fft.irfft`, making torch_radon compatible with PyTorch 2.0.
+2. `FourierFilters` class has been optimized for better error handling and efficiency.
+
 ## TODO List
 
 - [x] `torch.rfft` and `torch.irfft` are not supported any more, move to `torch.fft.rfft` and `torch.fft.irfft`
