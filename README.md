@@ -58,7 +58,9 @@ This fork includes two main updates:
 
 ## Cite
 
-If you are using TorchRadon in your research, please cite the following paper:
+If you are using TorchRadon in your research, please cite:
+<details>
+
 ```
 @article{torch_radon,
 Author = {Matteo Ronchetti},
