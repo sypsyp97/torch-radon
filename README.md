@@ -12,17 +12,6 @@ for solving computed tomography (CT) reconstruction problems.
 
 The library is designed to help researchers working on CT problems to combine deep learning
 and model-based approaches.
-
-Main features:
- - Forward projections, back projections and shearlet transforms are **differentiable** and
- integrated with PyTorch `.backward()`.
- - Up to 125x **faster** than Astra Toolbox.
- - **Batch operations**: fully exploit the power of modern GPUs by processing multiple images
- in parallel.
- - **Transparent API**: all operations are seamlessly integrated with PyTorch, 
-  gradients can  be  computed using `.backward()`,  half precision can be used with Nvidia AMP.
- - **Half precision**: storing data in half precision allows to get sensible speedups 
- when  doing  Radon  forward  and  backward projections with a very small accuracy loss.
  
 Implemented operations:
  - Parallel Beam projections
